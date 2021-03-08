@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+#headerhome{
+    width: 20%;
+    height: 60px;
+    background-color: rgb(209, 209, 209);
+}
+#menuicon {
+    font-size:64px;
+}
+#flexbody {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#navbar {
+    margin: 0;
+    width: 80%;
+    background-color: rgb(209, 209, 209);
+}
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    background-color: rgb(209, 209, 209);
+}
+#navbar li {
+    list-style: none;
+    float: left;
+    
+}
+#navbar li:hover {
+    background-color: white;   
+}
+
+#banner{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+article {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(209, 209, 209);
+}
+
+footer {
+    width:100%;
+    height:80px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
