@@ -1,55 +1,99 @@
 body {
     margin: 0;
-}
-#headerhome{
-    width: 20%;
-    height: 60px;
-    background-color: rgb(209, 209, 209);
-}
-#menuicon {
-    font-size:64px;
-}
-#flexbody {
+    padding: 0;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-#navbar {
+h1{
+    font-family: 'Nobile', sans-serif;
+    text-align: center;
+    font-weight: bold;
     margin: 0;
-    width: 80%;
-    background-color: rgb(209, 209, 209);
+    padding: 0;
+
+}
+
+#hamburger {
+    display: block;
+}
+
+#headerlink {
+    width: 82%;
+    text-decoration: none;
+    color: inherit;
+}
+#headerlink:hover {
+    background-color: #7c8b9c;
+}
+header{
+
+    width: 100%;
+    height: 100%;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menuicon {
+    font-size: 48px;
+}
+#navbar {
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #e2e2e2;
 }
 #navbar ul {
     margin: 0;
     padding: 0;
-    width: 80%;
-    background-color: rgb(209, 209, 209);
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(231, 231, 231);
 }
 #navbar li {
+    font-family: 'Nobile', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     list-style: none;
-    float: left;
+    height: 100%;
+    width:100%;
+    background-color: grey;
     
 }
 #navbar li:hover {
-    background-color: white;   
+    background-color: rgb(216, 216, 216);   
 }
 
 #banner{
+    font-size: 52px;
+    font-family: 'Miriam Libre', sans-serif;
+    text-align: center;
     width: 100%;
-    height: 110px;
-    background-color: rgb(53, 53, 53);
-    color: white;
+    padding: 10px 0;
+    background-color: #434e64;
+    color: #ffffff;
 }
 
 article {
+    text-align: center;
+    font-family: 'Nobile', sans-serif;
     width: 100%;
-    height: 70vh;
-    background-color: rgb(209, 209, 209);
+    height: 60vh;
+    background-color: #e2e2e2;
 }
 
 footer {
+    font-family: 'Miriam Libre', sans-serif;
     width:100%;
     height:80px;
-    background-color: rgb(53, 53, 53);
+    background-color: #434e64;
     color: white;
 }
