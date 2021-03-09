@@ -13,16 +13,24 @@
         <nav id="navbar">
             <div id="hamburger">
                 <a href="javascript:void(0);" class="menuicon" onclick="toggleMenu()"><ion-icon id="menuicon" name="menu-outline"></ion-icon></a>
+                <ul id="navlinks">
+                    <a href="index.html"><li id="navhme">Home</li></a>
+                    <a href="projects.html"><li id="navprj">Projects</li></a>
+                    <a href="blog.html"><li id="navblg">Blog</li></a>
+                    <a href="contact.html"><li id="navcon">Contact</li></a>
+                    <a href="resume.html"><li id="navres">Resume</li></a>
+                </ul>
             </div>
             <a href="index.html" id="headerlink"><header><h1>Chris Hoggan</h1></header></a>
+            <ul id="navlinkswide">
+                <a href="index.html"><li id="navhme">Home</li></a>
+                <a href="projects.html"><li id="navprj">Projects</li></a>
+                <a href="blog.html"><li id="navblg">Blog</li></a>
+                <a href="contact.html"><li id="navcon">Contact</li></a>
+                <a href="resume.html"><li id="navres">Resume</li></a>
+            </ul>
         </nav>
-        <ul id="navlinks">
-            <li id="navhme">Home</li>
-            <li id="navprj">Projects</li>
-            <li id="navblg">Blog</li>
-            <li id="navcon">Contact</li>
-            <li id="navres">Resume</li>
-        </ul>
+
         <div id="banner">
             <h2>
                 MAKE COOL STUFF
@@ -61,7 +69,7 @@
         function toggleMenu() {
           var x = document.getElementById("navlinks");
           var icon = document.getElementById("menuicon");
-          if (toggle === true) {
+          if (toggle === true && x.display != "none") {
             // x.style.display = "none";
             toggle = false;
             x.style.top = "-400px";
@@ -71,7 +79,7 @@
             // x.style.display = "flex";
             toggle = true;
             x.style.top = "60px";
-            x.style.opacity = "0.95";
+            x.style.opacity = "0.93";
             icon.name = "close-outline";
           }
         }
