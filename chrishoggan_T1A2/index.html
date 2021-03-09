@@ -7,42 +7,74 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Nobile:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@700&family=Nobile:wght@500&family=Work+Sans:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
         <nav id="navbar">
             <div id="hamburger">
-                <ion-icon id="menuicon" name="menu-outline"></ion-icon>
-                <ul>
-                    <li id="navhme">Home</li>
-                    <li id="navprj">Projects</li>
-                    <li id="navblg">Blog</li>
-                    <li id="navcon">Contact</li>
-                    <li id="navres">Resume</li>
-                </ul>
+                <a href="javascript:void(0);" class="menuicon" onclick="toggleMenu()"><ion-icon id="menuicon" name="menu-outline"></ion-icon></a>
             </div>
-            <a href="index.html" id="headerlink"><header><h1>Portfolio</h1></header></a>
+            <a href="index.html" id="headerlink"><header><h1>Chris Hoggan</h1></header></a>
         </nav>
+        <ul id="navlinks">
+            <li id="navhme">Home</li>
+            <li id="navprj">Projects</li>
+            <li id="navblg">Blog</li>
+            <li id="navcon">Contact</li>
+            <li id="navres">Resume</li>
+        </ul>
         <div id="banner">
             <h2>
-                Big header thing
+                MAKE COOL STUFF
             </h2>
         </div>
-        <article>
-            <h1>FOo</h1>
+        <main>
+            <br>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum at tempora porro necessitatibus omnis maxime, temporibus eveniet incidunt dolor reprehenderit, facere maiores voluptates? Vel quam doloremque nisi fugiat ratione reprehenderit.
+                Hi there!
             </p>
-        </article>
-            <footer>
+            <p>I'm a Junior Web Developer with a passion for tech.</p>
+            <p>I've been in the IT industry for more than eight years, with experience in networking, voice and linux administration.</p>
+            <p>Join me in my mission to design, automate, and build new ambitious projects, together we can <br><span>make cool stuff.</span></p>
+            <br>
+            <br>
+            <p class="quote">"Goddamn, Chris is more than awesome, like awesome^awesome^awesome and I'm not sure how to shorthand that"</p>
+            <p class="quote" style="text-align: right; margin-right: 20%;">- Talieson D.</p>
+        </main>
+        <footer>
+            <div>
+                <ion-icon name="logo-github"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+
             <p>
-                Footer
+                &copy; Chris Hoggan 2021
             </p>
-            </footer>
+            
+        </footer>
 
 <!-- Enable Ionicons -->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-
+    <script>
+        var toggle = false;
+        function toggleMenu() {
+          var x = document.getElementById("navlinks");
+          var icon = document.getElementById("menuicon");
+          if (toggle === true) {
+            // x.style.display = "none";
+            toggle = false;
+            x.style.top = "-400px";
+            x.style.opacity = "0";
+            icon.name = "menu-outline";
+          } else {
+            // x.style.display = "flex";
+            toggle = true;
+            x.style.top = "60px";
+            x.style.opacity = "0.95";
+            icon.name = "close-outline";
+          }
+        }
+        </script>
 </body>
 </html>
