@@ -21,7 +21,7 @@
                     <a href="resume.html"><li class="navres">Resume</li></a>
                 </ul>
             </div>
-            <a href="index.html" id="headerlink"><header><h1>Chris Hoggan</h1></header></a>
+            <a href="index.html" id="headerlink"><h1 class="namelink">Chris Hoggan</h1></a>
             <ul id="navlinkswide">
                 <a href="index.html"><li class="navhme">Home</li></a>
                 <a href="projects.html"><li class="navprj">Projects</li></a>
@@ -31,13 +31,23 @@
             </ul>
         </nav>
 
-        <div id="banner">
+        <header id="banner">
             <h2>
                 CONTACT
             </h2>
-        </div>
-        <main>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse expedita doloribus tempore accusantium ducimus porro, sapiente voluptatibus doloremque soluta ad eligendi. Sit mollitia nulla molestias consequuntur laboriosam consequatur iure dignissimos.</p>
+        </header>
+        <main id="contactformbox">
+            <h3 style="font-size:16px; margin: 20px 0px 8px 0px;">Let's get to work, send me a message -</h3>
+            <br>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <input type="submit">
+            </form>
         </main>
         <footer>
             <div>

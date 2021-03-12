@@ -10,7 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@700&family=Nobile:wght@500&family=Work+Sans:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Navbar, including hamburger, link menu, logo link, and 2nd link menu for wider media -->
+
         <nav id="navbar">
+
+            <!-- hamburger component -->
+
             <div id="hamburger">
                 <a href="javascript:void(0);" class="menuicon" onclick="toggleMenu()"><ion-icon id="menuicon" name="menu-outline"></ion-icon></a>
                 <ul id="navlinks">
@@ -21,7 +27,10 @@
                     <a href="resume.html"><li class="navres">Resume</li></a>
                 </ul>
             </div>
-            <a href="index.html" id="headerlink"><header><h1>Chris Hoggan</h1></header></a>
+
+            <!-- seperate sub-navbar for tablet/desktop -->
+
+            <a href="index.html" id="headerlink"><h1 class="namelink">Chris Hoggan</h1></a>
             <ul id="navlinkswide">
                 <a href="index.html"><li class="navhme">Home</li></a>
                 <a href="projects.html"><li class="navprj">Projects</li></a>
@@ -31,11 +40,16 @@
             </ul>
         </nav>
 
-        <div id="banner">
-            <h2>
+        <!-- Banner component for title/call to action -->
+
+        <header id="banner">
+            <h2 id="makecoolstuff">
                 MAKE COOL STUFF
             </h2>
-        </div>
+        </header>
+
+        <!-- main component for content of the page -->
+
         <main>
             <br>
             <p>
@@ -46,14 +60,20 @@
             <p>Join me in my mission to design, automate, and build new ambitious projects, together we can <br><span>make cool stuff.</span></p>
             <br>
             <br>
+
+            <!-- Testimonial subsection -->
+
             <p class="quote">"Goddamn, Chris is more than awesome, like awesome^awesome^awesome and I'm not sure how to shorthand that"</p>
             <p class="quote" style="text-align: right; margin-right: 20%;">- Talieson D.</p>
         </main>
+
+        <!-- footer component containing copyright, social links -->
+
         <footer>
             <div>
-                <ion-icon name="logo-github"></ion-icon>
-                <ion-icon name="logo-linkedin"></ion-icon>
-                <ion-icon name="logo-twitter"></ion-icon>
+                <a href="https://github.com/devodude" target="#"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/chris-hoggan-452aa2208/" target="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
             </div>
 
             <p>
