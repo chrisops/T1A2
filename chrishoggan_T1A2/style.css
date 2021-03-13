@@ -304,8 +304,8 @@ main h6 img {
     transition: all 0.1s;
 }
 main h6:hover img {
-    filter: drop-shadow(1px 1px 1px rgb(136, 136, 136));
-    transform:translate(-2px,-2px);
+    filter: drop-shadow(6px 6px 1px rgb(165, 165, 165));
+    transform:translate(-6px,-6px);
 }
 main h6:hover {
 
@@ -432,6 +432,11 @@ footer p {
 footer ion-icon {
     margin: 0 4px;
     font-size: 32px;
+    transition: all 0.1s;
+}
+footer ion-icon:hover {
+    filter: drop-shadow(5px 5px 1px rgb(127, 108, 138));
+    transform: translate(-5px,-5px);
 }
 
         /* Responsive styles: */
