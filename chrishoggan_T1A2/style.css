@@ -318,6 +318,12 @@ main p span {
     font-size: 22px;
     font-weight: bold;
 }
+.blogbox {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
 .projectsflex {
     display: flex;
     flex-direction: row;
