@@ -1,3 +1,21 @@
+commit 824d2c16d939339d30f5e9972de3cb6d2c0ebc7d
+Author: chris <homebase.op@gmail.com>
+Date:   Sun Mar 14 16:00:44 2021 +1000
+
+    redone SRI and fixed a few things
+
+commit b71ef1065483802e45309b31c78547355b0a9932
+Author: chris <homebase.op@gmail.com>
+Date:   Sun Mar 14 15:38:21 2021 +1000
+
+    restructured folders for submission
+
+commit 21f7a4b7e5f7fdd6083566783ed659fa1bd81e2a
+Author: chris <homebase.op@gmail.com>
+Date:   Sun Mar 14 15:08:25 2021 +1000
+
+    cleared syntax errors and finished accessibility
+
 commit 7ba64df5593da6a7e8aed5f98894fe45fd01bb85
 Author: chris <homebase.op@gmail.com>
 Date:   Sat Mar 13 17:24:29 2021 +1000
