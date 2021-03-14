@@ -10,26 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@700&family=Nobile:wght@500&family=Work+Sans:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
-        <nav id="navbar">
-            <div id="hamburger">
-                <a href="javascript:void(0);" class="menuicon" onclick="toggleMenu()"><ion-icon id="menuicon" name="menu-outline"></ion-icon></a>
-                <ul id="navlinks">
-                    <a href="index.html"><li class="navhme">Home</li></a>
-                    <a href="projects.html"><li class="navprj">Projects</li></a>
-                    <a href="blog.html"><li class="navblg">Blog</li></a>
-                    <a href="contact.html"><li class="navcon">Contact</li></a>
-                    <a href="resume.html"><li class="navres">Resume</li></a>
-                </ul>
-            </div>
-            <a href="index.html" id="headerlink"><h1 class="namelink">Chris Hoggan</h1></a>
-            <ul id="navlinkswide">
-                <a href="index.html"><li class="navhme">Home</li></a>
-                <a href="projects.html"><li class="navprj">Projects</li></a>
-                <a href="blog.html"><li class="navblg">Blog</li></a>
-                <a href="contact.html"><li class="navcon">Contact</li></a>
-                <a href="resume.html"><li class="navres">Resume</li></a>
+    <!-- Navbar, including hamburger, link menu, logo link, and 2nd link menu for wider media -->
+
+    <nav id="navbar">
+
+        <!-- hamburger component -->
+
+        <div id="hamburger">
+            <a href="javascript:void(0);" class="menuicon" onclick="toggleMenu()"><ion-icon id="menuicon" name="menu-outline"></ion-icon></a>
+            <ul id="navlinks">
+                <li><a href="index.html" class="navhme">Home</a></li>
+                <li><a href="projects.html" class="navprj">Projects</a></li>
+                <li><a href="blog.html" class="navblg">Blog</a></li>
+                <li><a href="contact.html" class="navcon">Contact</a></li>
+                <li><a href="resume.html" class="navres">Resume</a></li>
             </ul>
-        </nav>
+        </div>
+
+        <!-- seperate sub-navbar for tablet/desktop -->
+
+        <a href="index.html" id="headerlink"><h1 class="namelink">Chris Hoggan</h1></a>
+        <ul id="navlinkswide">
+            <li><a href="index.html" class="navhme">Home</a></li>
+            <li><a href="projects.html" class="navprj">Projects</a></li>
+            <li><a href="blog.html" class="navblg">Blog</a></li>
+            <li><a href="contact.html" class="navcon">Contact</a></li>
+            <li><a href="resume.html" class="navres">Resume</a></li>
+        </ul>
+    </nav>
 
         <header id="banner">
             <h2>
@@ -42,50 +50,50 @@
             <div id="resumebox">
                 <div class="resumecolumn">
                     <h3>Experience</h3>
-                    <article>
+                    <section>
                         <h4>Dec 2018 - Oct 2020</h4>
                         <h5>Jr NOC Engineer</h5>
-                        <a href="https://www.2talk.co.nz/" target="#"><h6>2Talk NZ Ltd.<img src="2talklogo.png" style="width:65px"></h6></a>
+                        <a href="https://www.2talk.co.nz/" target="#"><h6 class="companylink">2Talk NZ Ltd.<img src="2talklogo.png" style="width:65px" alt="2Talk Logo"></h6></a>
                         <p>My role involved network and system administration for
                             internet and voice services using in-house software and
                             open-source Linux technology such as Asterisk, Exim,
                             Linphone and Big Blue Button. I built automation scripts
                             using perl, and developed a small productivity web
                             application in PHP for the front desk.</p>
-                    </article>
-                    <article>
+                    </section>
+                    <section>
                         <h4>Jan 2017 - Dec 2018</h4>
                         <h5>Network Service Technician</h5>
-                        <a href="https://www.vocus.com.au/" target="#"><h6>Vocus Group Ltd.<img src="vocuslogo.png" style="width:65px"></h6></a>
+                        <a href="https://www.vocus.com.au/" target="#"><h6 class="companylink">Vocus Group Ltd.<img src="vocuslogo.png" style="width:65px" alt="Vocus Logo"></h6></a>
                         <p>I was responsible for running the premium service front
                             desk for the Vocus NSC team; this encompasses fault
                             management and configuration for premium service level
                             agreements such as MWAN, Dedicated HSNS, SIP SBC
                             interconnect and Wholesale VISP services.</p>
-                    </article>
-                    <article>
+                    </section>
+                    <section>
                         <h4>Feb 2015 - Jan 2017</h4>
                         <h5>Business Tech Support Agent</h5>
-                        <a href="https://www.callplus.co.nz/" target="#"><h6>CallPlus Ltd.<img src="callpluslogo.png" style="width:65px"></h6></a>
+                        <a href="https://www.callplus.co.nz/" target="#"><h6 class="companylink">CallPlus Ltd.<img src="callpluslogo.png" style="width:65px" alt="CallPlus Logo"></h6></a>
                         <p>I was responsible for running the SME level helpdesk at
                             CallPlus. This involved phone troubleshooting for internet,
                             domain, website and phone service, then managing faults to
                             various carriers and committing to SLAs.</p>
-                    </article>
-                    <article>
+                    </section>
+                    <section>
                         <h4>May 2013 - Feb 2015</h4>
                         <h5>Hosting Tech Support Agent</h5>
-                        <a href="https://www.orcon.net.nz/" target="#"><h6>Orcon Ltd.<img src="orconlogo.png" style="width:65px"></h6></a>
+                        <a href="https://www.orcon.net.nz/" target="#"><h6 class="companylink">Orcon Ltd.<img src="orconlogo.png" style="width:65px" alt="Orcon Logo"></h6></a>
                         <p>I was responsible for running the general helpdesk for a
                             range of Website hosting brands under Orcon and iServe.</p>
-                    </article>
-                    <article>
+                    </section>
+                    <section>
                         <h4>June 2012 - May 2013</h4>
                         <h5>Field Technian</h5>
-                        <h7>Vivid Networks Ltd.</h7>
+                        <h6>Vivid Networks Ltd.</h6>
                         <p>My role was to carry out tech support site visits and account
                             management for a residential ISP brand - Wisprnet Ltd.</p>
-                    </article>
+                    </section>
                 </div>
 
                 <div class="resumecolumn">
@@ -114,17 +122,17 @@
                     <br>
                     <h3>Education</h3>
                     <br>
-                    <article>
+                    <section>
                         <h4>2021 (In progress)</h4>
                         <h5>Coder Academy</h5>
-                        <h7>Diploma of Information Technology</h7>
-                    </article>
+                        <h6>Diploma of Information Technology</h6>
+                    </section>
                     <br>
-                    <article>
+                    <section>
                         <h4>2013</h4>
                         <h5>AMES IT</h5>
-                        <h7>Cisco CCNA</h7>
-                    </article>
+                        <h6>Cisco CCNA</h6>
+                    </section>
                 </div>
             </div>
             

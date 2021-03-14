@@ -13,32 +13,32 @@
 
     <!-- Navbar, including hamburger, link menu, logo link, and 2nd link menu for wider media -->
 
-        <nav id="navbar">
+    <nav id="navbar">
 
-            <!-- hamburger component -->
+        <!-- hamburger component -->
 
-            <div id="hamburger">
-                <a href="javascript:void(0);" class="menuicon" onclick="toggleMenu()"><ion-icon id="menuicon" name="menu-outline"></ion-icon></a>
-                <ul id="navlinks">
-                    <a href="index.html"><li class="navhme">Home</li></a>
-                    <a href="projects.html"><li class="navprj">Projects</li></a>
-                    <a href="blog.html"><li class="navblg">Blog</li></a>
-                    <a href="contact.html"><li class="navcon">Contact</li></a>
-                    <a href="resume.html"><li class="navres">Resume</li></a>
-                </ul>
-            </div>
-
-        <!-- seperate navbar for tablet/desktop -->
-
-            <a href="index.html" id="headerlink"><h1 class="namelink">Chris Hoggan</h1></a>
-            <ul id="navlinkswide">
-                <a href="index.html"><li class="navhme">Home</li></a>
-                <a href="projects.html"><li class="navprj">Projects</li></a>
-                <a href="blog.html"><li class="navblg">Blog</li></a>
-                <a href="contact.html"><li class="navcon">Contact</li></a>
-                <a href="resume.html"><li class="navres">Resume</li></a>
+        <div id="hamburger">
+            <a href="javascript:void(0);" class="menuicon" onclick="toggleMenu()"><ion-icon id="menuicon" name="menu-outline"></ion-icon></a>
+            <ul id="navlinks">
+                <li><a href="index.html" class="navhme">Home</a></li>
+                <li><a href="projects.html" class="navprj">Projects</a></li>
+                <li><a href="blog.html" class="navblg">Blog</a></li>
+                <li><a href="contact.html" class="navcon">Contact</a></li>
+                <li><a href="resume.html" class="navres">Resume</a></li>
             </ul>
-        </nav>
+        </div>
+
+        <!-- seperate sub-navbar for tablet/desktop -->
+
+        <a href="index.html" id="headerlink"><h1 class="namelink">Chris Hoggan</h1></a>
+        <ul id="navlinkswide">
+            <li><a href="index.html" class="navhme">Home</a></li>
+            <li><a href="projects.html" class="navprj">Projects</a></li>
+            <li><a href="blog.html" class="navblg">Blog</a></li>
+            <li><a href="contact.html" class="navcon">Contact</a></li>
+            <li><a href="resume.html" class="navres">Resume</a></li>
+        </ul>
+    </nav>
 
         <!-- Banner component for title/call to action -->
 
@@ -54,37 +54,23 @@
             <figure class="projectbox">
                 <img src="prjimg.jpg" alt="computer screen with code">
                 <figcaption><a href="index.html" class="prjlink"><p>Static Portfolio Site</p></a>
-                    <div class="iconbox">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                        <ion-icon name="logo-javascript"></ion-icon>
-                    </div>
                 </figcaption>
-
             </figure>
             <figure class="projectbox">
                 <img src="prjimg.jpg" alt="computer screen with code">
                 <figcaption><a href="index.html" class="prjlink"><p>Project 2</p></a></figcaption>
-                <div class="iconbox">
-                </div>
             </figure>
             <figure class="projectbox">
                 <img src="prjimg.jpg" alt="computer screen with code">
                 <figcaption><a href="index.html" class="prjlink"><p>Project 3</p></a></figcaption>
-                <div class="iconbox">
-                </div>
             </figure>
             <figure class="projectbox">
                 <img src="prjimg.jpg" alt="computer screen with code">
                 <figcaption><a href="index.html" class="prjlink"><p>Project 4</p></a></figcaption>
-                <div class="iconbox">
-                </div>
             </figure>
             <figure class="projectbox">
                 <img src="prjimg.jpg" alt="computer screen with code">
                 <figcaption><a href="index.html" class="prjlink"><p>Project 5</p></a></figcaption>
-                <div class="iconbox">
-                </div>
             </figure>
         </main>
 

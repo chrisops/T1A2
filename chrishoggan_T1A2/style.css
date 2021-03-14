@@ -86,11 +86,11 @@ a {
     justify-content: space-evenly;
     background-color: #4d4055;
 }
-#navlinkswide a{
-    width:100%;
-    
-}
 #navlinkswide li{
+    width:100%;
+    list-style: none;
+}
+#navlinkswide a{
     width:100%;
     height:100%;
     font-family: 'Nobile', sans-serif;
@@ -105,13 +105,13 @@ a {
     transition: all 0.25s;
     color: rgb(51, 51, 51);
 }
-#navlinkswide li:hover {
+#navlinkswide a:hover {
     background-color: rgb(119, 119, 119);   
     color: #d4dee7;
     
     top: 6px;
 }
-#navlinks li {
+#navlinks a {
     font-family: 'Nobile', sans-serif;
     padding: 22.8px;
     display: flex;
@@ -164,26 +164,38 @@ a {
     margin: 0;
     padding: 0;
     display: flex;
-    height: 113px;
+    height: 120px;
+    border-bottom: 2px solid rgb(206, 206, 206);
     flex-direction: row;
     flex-wrap: wrap;
     overflow-y: scroll;
 }
-#blognav a {
+#blognav li {
     background-color: #e2e2e2;
     list-style-type: none;
     font-family: 'Nobile', sans-serif;
-    padding: 20px 0px;
+    
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-#blognav a:hover {
+#blognav li:hover {
     background-color: rgb(119, 119, 119);
     color: #d4dee7;
 }
+#blognav a{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#blognav p {
+    margin: 22px 0px;
+}
+
 
                         /* Main content area */
 
@@ -290,24 +302,15 @@ main h6 {
     
 }
 
-main h7 {
-    text-align: center;
-    font-family: 'Nobile', sans-serif;
-    font-size: 18px;
-    margin: 2px 12px 2px 12px;
-    transition: color 0.1s;
-    color: rgb(51, 51, 51);
-    
-}
-main h6 img {
+main .companylink img {
     margin: 0px 18px;
     transition: all 0.1s;
 }
-main h6:hover img {
+main .companylink:hover img {
     filter: drop-shadow(6px 6px 1px rgb(165, 165, 165));
     transform:translate(-6px,-6px);
 }
-main h6:hover {
+main .companylink:hover {
 
     color: #7aa9d3;
     text-decoration: underline;
@@ -366,7 +369,7 @@ main p span {
     margin: 34px 18px;
 }
 
-#resumebox article {
+#resumebox section {
     width: 100%;
     display:flex;
     margin: 24px 0px;
@@ -387,7 +390,7 @@ figcaption {
 .prjlink p{
     transition: all .1s;
 }
-.prjlink p:hover {
+.prjlink:hover p {
     color:#7aa9d3;
     text-decoration: underline;
 }
@@ -406,7 +409,7 @@ figcaption {
 }
 .projectbox:hover img {
     width:100%;
-    border-radius:4%;
+    border-radius:8%;
 }
 
 .quote {
@@ -476,11 +479,12 @@ footer ion-icon:hover {
     .resumecolumn{
         width:50%;
     }
-    #blognav a {
+    #blognav li {
         width: 20%;
     }
     #blognav {
         overflow-y: hidden;
+        height: 65px;
     }
 
 }
