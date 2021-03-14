@@ -1,3 +1,9 @@
+commit cf47dbb538e16a0d75266ffef40337d86e0ec3bc
+Author: chris <homebase.op@gmail.com>
+Date:   Sun Mar 14 16:49:09 2021 +1000
+
+    finished README, restructured everything ready for submission
+
 commit 824d2c16d939339d30f5e9972de3cb6d2c0ebc7d
 Author: chris <homebase.op@gmail.com>
 Date:   Sun Mar 14 16:00:44 2021 +1000
