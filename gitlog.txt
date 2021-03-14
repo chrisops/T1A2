@@ -1,0 +1,71 @@
+commit 7ba64df5593da6a7e8aed5f98894fe45fd01bb85
+Author: chris <homebase.op@gmail.com>
+Date:   Sat Mar 13 17:24:29 2021 +1000
+
+    SRI working now
+
+commit 756e783c1ef4571d9818900bd528f7eea66264a2
+Author: chris <homebase.op@gmail.com>
+Date:   Sat Mar 13 17:21:00 2021 +1000
+
+    added more animation + SRI, but it dont work for some reason
+
+commit 06f36da2af0cfa8b3d32b918aa91fe63166cbf11
+Author: chris <homebase.op@gmail.com>
+Date:   Sat Mar 13 16:53:14 2021 +1000
+
+    added comments for rubric
+
+commit 99f0b1a83e837a2196c8834e7e8bb6543441f833
+Author: chris <homebase.op@gmail.com>
+Date:   Sat Mar 13 16:49:08 2021 +1000
+
+    rubric requires image for blog posts, quickly added this
+
+commit 123a34daf438dcac12715ba1f2c1dd8ea1e8c45e
+Author: chris <homebase.op@gmail.com>
+Date:   Sat Mar 13 16:41:25 2021 +1000
+
+    finished resume, added pdf and links all work!
+
+commit 1aa23063e858a92f9863818fe07a39c599a668e4
+Author: chris <homebase.op@gmail.com>
+Date:   Fri Mar 12 19:12:11 2021 +1000
+
+    finished all pages except for resume
+
+commit 2ddb4499ad4f44b67cdc72206ea0cabbc13a3654
+Author: chris <homebase.op@gmail.com>
+Date:   Fri Mar 12 14:06:26 2021 +1000
+
+    Completed homepage for presentation, added the rest of pages as templates
+
+commit 1b60405f052031df4250a6971e2b2a40d967c054
+Author: chris <homebase.op@gmail.com>
+Date:   Wed Mar 10 09:43:08 2021 +1000
+
+    cheeky commit of everything
+
+commit bb6e3ca788c5b148d0eed85db695ab137a94652f
+Author: chris <homebase.op@gmail.com>
+Date:   Tue Mar 9 16:01:14 2021 +1000
+
+    homepage fully complete now
+
+commit ee1d890a0b1cf3178eef25bbce3a9ea656e6f442
+Author: chris <homebase.op@gmail.com>
+Date:   Tue Mar 9 14:28:27 2021 +1000
+
+    homepage complete
+
+commit 49bd9b4329cd38e466fb5ed2108c4be7c1d95507
+Author: chris <homebase.op@gmail.com>
+Date:   Tue Mar 9 11:06:02 2021 +1000
+
+    9 March morning changes, fixed navbar
+
+commit 53b9d4460a9686bcb9816df2800eb785c2c09b6d
+Author: chris <homebase.op@gmail.com>
+Date:   Mon Mar 8 15:43:12 2021 +1000
+
+    First commit - added wireframes, initial home page
