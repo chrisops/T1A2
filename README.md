@@ -1,7 +1,5 @@
 # T1A2 - Portfolio Website
 
-[chrishoggan.com](http://chrishoggan.com)
-
 [github repo](https://github.com/devodude/T1A2)
 
 ## Purpose
